@@ -51,7 +51,6 @@ export const Zalgo: React.FC<ZalgoProps> = ({
       // <></> does not have key.
       <React.Fragment key={index}>
         {glitched}
-        <br />
       </React.Fragment>
     );
   });
